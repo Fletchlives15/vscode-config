@@ -1,0 +1,57 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+enter",
+        "command": "jupyter.execSelectionInteractive",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.ownsSelection && !findInputFocussed && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-jupyter.execSelectionInteractive",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.ownsSelection && !findInputFocussed && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "shift+alt+e",
+        "command": "python.execSelectionInTerminal",
+        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-python.execSelectionInTerminal",
+        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "ctrl+shift+\\",
+        "command": "workbench.action.createTerminalEditor"
+    },
+    {
+        "key": "ctrl+shift+\\",
+        "command": "workbench.action.terminal.newInActiveWorkspace"
+    },
+    {
+        "key": "ctrl+shift+h",
+        "command": "extension.vim_ctrl+b",
+        "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-extension.vim_ctrl+b",
+        "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "shift+7 b",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "-workbench.action.splitEditor"
+    }
+]

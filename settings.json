@@ -1,0 +1,93 @@
+{
+    /////////////////////// theme stuff ////////////////////////
+    "workbench.colorTheme": "Dracula Theme Soft",
+    "workbench.preferredDarkColorTheme": "Dracula Theme",
+    "workbench.iconTheme": "catppuccin-mocha",
+
+    ////////////////////////// editor stuff /////////////////////////
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlightOnlyWhenFocus": false,
+    "editor.overviewRulerBorder": false,
+    "editor.padding.bottom": 14,
+    "editor.padding.top": 14,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.occurrencesHighlight": "off",
+    "editor.selectionHighlight": false,
+    "editor.renderWhitespace": "none",
+    "editor.fontLigatures": true,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.autoClosingQuotes": "never",
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingOvertype": "never",
+    "editor.autoClosingComments": "never", 
+    "editor.autoIndent": "none",
+    "editor.autoSurround": "never",
+    "editor.lineNumbers": "relative",
+    "editor.formatOnSave": true,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
+    "editor.codeLens": false,
+    "editor.glyphMargin": false,
+    "editor.foldingHighlight": false,
+    "editor.renderLineHighlight": "none",
+    "editor.guides.indentation": false,
+    "editor.guides.highlightActiveIndentation": false,
+    "editor.matchBrackets": "never",
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.parameterHints.enabled": false,
+    "editor.inlayHints.enabled": "off",
+    "editor.showFoldingControls": "never",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 18,
+
+    ////////////////////////////////// vim stuff ///////////////////////////
+    "vim.smartRelativeLine": true,
+    "vim.cursorStylePerMode.insert": "underline",
+    "vim.cursorStylePerMode.normal": "block",
+
+    ///////////////////////////////// window ///////////////////////////
+    "window.menuBarVisibility": "toggle",
+    "window.title": " ",
+    "window.autoDetectColorScheme": true,
+    "window.autoDetectHighContrast": false,
+    //////////////////// Workbench ////////////////////////
+    "workbench.layoutControl.type": "menu",
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.tree.indent": 12,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.sideBar.location": "right",
+    "workbench.layoutControl.enabled": false, 
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.tabSizing":"shrink",
+    
+    ///////////////////// debug or random ///////////////////////////
+    "debug.toolBarLocation": "docked",
+    "debug.onTaskErrors": "debugAnyway",
+    "breadcrumbs.enabled": false,
+    "breadcrumbs.icons": false,
+    "explorer.openEditors.visible": 0,
+    "explorer.autoReveal": false,
+    "explorer.compactFolders": false,
+    "explorer.decorations.badges": false,
+    "explorer.decorations.colors": false,
+    "zenMode.fullScreen": false,
+
+    /////////////////////// Terminal //////////////////////////////
+    "terminal.integrated.defaultLocation": "view",
+    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.hideOnStartup": "always",
+    "terminal.integrated.smoothScrolling": true,
+    "workbench.preferredLightColorTheme": "Dracula Theme",
+    
+    //////////////////////// Color Customizations ///////////////////
+    //"workbench.colorCustomizations": {
+        //"[Initial Test Theme]": {
+            //"editor.background": "#000000",
+            //"editor.foreground": "#FFFFFF"
+        //},
+    //},
+    
+}
